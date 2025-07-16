@@ -45,7 +45,7 @@ def main_loop():
             previous_residences = current_residences
 
         # Check every 2 minutes
-        time.sleep(120)
+        time.sleep(10)
 
 if __name__ == "__main__":
     print("Bot started...")
